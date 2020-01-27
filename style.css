@@ -1,0 +1,195 @@
+img {
+	margin-right: 5px;
+}
+body {
+  background-image: url("/Background.jpg");
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	color: white;
+	font-size: 18;}
+nav {
+	background-color: white;
+	border-radius: 5px;
+}
+.btn {
+	border: none;
+	background-color: DodgerBlue;
+	padding: 7px 7px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	border-radius: 5px;
+	margin: 5px;
+}
+.btn:hover {
+	background: RoyalBlue;
+}
+.btn2 {
+	border: none;
+	background-color: white;
+	padding: 7px 7px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	color: #228dff;
+	border-radius: 5px;
+}
+.btn2:hover {
+	background: #eee;
+}
+.rounded {
+	border-radius: 5px;
+	height: 25px;
+	width: 100px;
+}
+.header-login {
+	float: right;
+}
+.header-login a {
+	float: right;
+}
+.header-login form {
+	float: right;
+}
+.header-login button {
+	float: right;
+}
+.header-login input {
+	float: right;
+}
+.header-logo {
+	float: left;
+	border-radius: 5px
+}
+.wrapper-main {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+.wrapper-main p {
+	color: white;
+}
+.wrapper-main div {
+	color: white;
+}
+table {
+width: 550px;
+height: 100px;
+border: 5px solid DodgerBlue;
+padding: 2px;
+margin: 10px;}
+th {
+border: 5px solid DodgerBlue;
+padding: 1px;
+margin: 10px;	
+color: white;}
+td {
+border: 5px solid RoyalBlue;
+padding: 1px;
+margin: 10px;
+color: white;}
+a {
+color: #228dff;
+background-color: transparent;
+text-decoration: none;}
+.header-login {float: right;}
+.header-logo {float: left;
+              border-radius: 5px}
+			  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+			  * {
+			    font-family: 'Open Sans', sans-serif;
+			    box-sizing: border-box;
+			    color: #333;
+			    font-size: 100%;
+			    line-height: 1.5;
+			  }
+			  nav {
+			    --duration: .5s;
+			    --easing: ease-in-out;
+			    position: relative;
+			    width: 220px;
+			    margin: 20px;
+			  }
+			  nav ol {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			  }
+			  nav li {
+			    margin: -4px 0 0 0;
+			  }
+			  nav a {
+			    display: block;
+			    text-decoration: none;
+			    background: #fff;
+			    transform-origin: 0 0;
+			    transition: transform var(--duration) var(--easing), color var(--duration) var(--easing);
+			    transition-delay: var(--delay-out);
+			    border-radius: 4px;
+			    padding: 1em 1.52em;
+			  }
+			  nav a:hover {
+			    background: #efefef;
+			  }
+			  nav .sub-menu a {
+			    font-size: .9em;
+			    color: #666666;
+			    border-left: 2em solid white;
+			    padding: .75em;
+			    background: linear-gradient(to right, #dddddd 2px, #ffffff 2px);
+			  }
+			  nav .sub-menu a:hover {
+			    background: linear-gradient(to right, #dddddd 2px, #efefef 2px);
+			  }
+			  nav header {
+			    font-weight: 600;
+			    display: block;
+			    background: rgba(255, 255, 255, 0.5);
+			    transform-origin: 0 0;
+			    transition: transform var(--duration) var(--easing), color var(--duration) var(--easing);
+			    transition-delay: var(--delay-out);
+			    border-radius: 4px;
+			    padding: 1em 1.52em;
+			  }
+			  nav header span {
+			    border: none;
+			    background: transparent;
+			    font-size: 1.5em;
+			    padding: 0;
+			    cursor: pointer;
+			    line-height: 1;
+			    float: right;
+			  }
+			  nav footer button {
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    border: none;
+			    padding: calc(1em - 2px);
+			    width: 100%;
+			    transform-origin: 0 0;
+			    transition: transform var(--duration) var(--easing);
+			    transition-delay: calc(var(--duration) + (.1s * (var(--count) / 2)));
+			    cursor: pointer;
+			    outline: none;
+			    background: #cdcdcd;
+			    opacity: 0;
+			  }
+			  nav.closed a,
+			  nav.closed header {
+			    transform: translateY(calc(var(--top) * -1)) scaleY(0.1) scaleX(0.2);
+			    transition-delay: var(--delay-in);
+			    color: transparent;
+			  }
+			  nav.closed footer button {
+			    transition-delay: 0s;
+			    transform: scaleY(0.7) scaleX(0.2);
+			  }
