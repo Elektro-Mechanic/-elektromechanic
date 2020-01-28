@@ -12,6 +12,7 @@ body {
 nav {
 	background-color: white;
 	border-radius: 5px;
+    float: left;
 }
 .btn {
 	border: none;
@@ -72,7 +73,7 @@ nav {
 	padding: 5px;
 	display: inline-block;
 	vertical-align: top;
-	float: right;
+    float: left;
 }
 .wrapper-main p {
 	color: white;
