@@ -10,46 +10,22 @@
   <link rel="stylesheet" href="http://elektromechanic.com/style.css" />
   <title>Elektro-Mechanic Home</title>
   <link rel="icon" type="image/jpeg" href="http://elektromechanic.com/logo.jpg"/>
-<script>
-	var $els = $('.menu a, .menu header');
-	var count = $els.length;
-	var grouplength = Math.ceil(count/3);
-	var groupNumber = 0;
-	var i = 1;
-	$('.menu').css('--count',count+'');
-	$els.each(function(j){
-	    if ( i > grouplength ) {
-	        groupNumber++;
-	        i=1;
-	    }
-	    $(this).attr('data-group',groupNumber);
-	    i++;
-	});
-
-	$('.menu footer button').on('click',function(e){
-	    e.preventDefault();
-	    $els.each(function(j){
-	        $(this).css('--top',$(this)[0].getBoundingClientRect().top + ($(this).attr('data-group') * -15) - 20);
-	        $(this).css('--delay-in',j*.1+'s');
-	        $(this).css('--delay-out',(count-j)*.1+'s');
-	    });
-	    $('.menu').toggleClass('closed');
-	    e.stopPropagation();
-	});
-
-	// run animation once at beginning for demo
-	setTimeout(function(){
-	    $('.menu footer button').click();
-	    setTimeout(function(){
-	        $('.menu footer button').click();
-	    }, (count * 100) + 500 );
-	}, 1000);
-</script>
 </head>
 <body>
+<script>
+	function toggle() {
+	  var x = document.getElementById("navmenu");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+		  x.style.display = "none";
+	  }
+	}
+</script>	
+	<div class="wrapper-main">
 	<nav class="menu">
 	    <header>Menu<span>×</span></header>
-	    <ol>
+	    <ol id="navmenu">
 	        <li class="menu-item"><a href="index.html">Home</a></li>
 	        <li class="menu-item"><a href="Elektro-MechanicAbou.html">About</a></li>
 	        <li class="menu-item">
@@ -70,9 +46,8 @@
 	        </li>
 	        <li class="menu-item"><a href="Elektro-MechanicDon.html">Donate</a></li>
 	    </ol>
-	    <footer><button aria-label="Toggle Menu">Toggle</button></footer>
+	    <footer><button aria-label="Toggle Menu" onclick="toggle()">Toggle</button></footer>
     </nav>
-	<div class="wrapper-main">
 	<p>Here at Elektro-Mechanic we are constantly working on new projects and ordering new parts!<br>We look forward to teaching you about how things work, why they are here, and walking you<br>through making them yourself.</p>
 	<table>
 	  <tr><th>Date</th>

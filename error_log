@@ -1,98 +1,115 @@
-[17-Jan-2020 23:04:56 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:05:30 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:05:41 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:25:07 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:25:17 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:25:25 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:26:29 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:26:33 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[17-Jan-2020 23:26:38 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[18-Jan-2020 00:13:42 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[18-Jan-2020 00:13:49 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[18-Jan-2020 00:14:36 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[18-Jan-2020 00:14:44 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 11
-[18-Jan-2020 00:23:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:25:50 UTC] PHP Notice:  Undefined variable: result in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:25:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:27:03 UTC] PHP Notice:  Undefined variable: result in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:27:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:29:20 UTC] PHP Notice:  Undefined variable: result in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:29:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:30:46 UTC] PHP Notice:  Undefined variable: result in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:30:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:30:52 UTC] PHP Notice:  Undefined variable: result in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:30:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:31:07 UTC] PHP Notice:  Undefined variable: result in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:31:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:35:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:35:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:52:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:56:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:56:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 00:59:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 01:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:25
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 25
-[18-Jan-2020 01:16:38 UTC] PHP Parse error:  syntax error, unexpected 'qew501825' (T_STRING), expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 2
-[18-Jan-2020 01:16:41 UTC] PHP Parse error:  syntax error, unexpected 'qew501825' (T_STRING), expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 2
-[18-Jan-2020 21:22:52 UTC] PHP Parse error:  syntax error, unexpected 'qew501825' (T_STRING), expecting ')' in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 2
-[18-Jan-2020 21:24:35 UTC] PHP Parse error:  syntax error, unexpected '$dbUsername' (T_VARIABLE) in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 6
-[18-Jan-2020 22:06:38 UTC] PHP Parse error:  syntax error, unexpected '$dbUsername' (T_VARIABLE) in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 6
-[18-Jan-2020 22:07:23 UTC] PHP Parse error:  syntax error, unexpected '$dbUsername' (T_VARIABLE) in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 6
-[18-Jan-2020 22:07:31 UTC] PHP Parse error:  syntax error, unexpected '$dbUsername' (T_VARIABLE) in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 6
-[18-Jan-2020 22:09:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:34
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 34
-[18-Jan-2020 22:09:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:34
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 34
-[18-Jan-2020 22:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:34
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 34
-[18-Jan-2020 22:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:34
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 34
-[18-Jan-2020 22:10:37 UTC] PHP Parse error:  syntax error, unexpected 'qew501825' (T_STRING) in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 8
-[18-Jan-2020 22:10:40 UTC] PHP Parse error:  syntax error, unexpected 'qew501825' (T_STRING) in /home/troy07/public_html/elektromechanic.com/root/includes/dbh.inc.php on line 8
-[18-Jan-2020 22:12:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:34
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 34
-[18-Jan-2020 22:12:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mqsqli_stmt_get_result() in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php:34
-Stack trace:
-#0 {main}
-  thrown in /home/troy07/public_html/elektromechanic.com/root/includes/login.inc.php on line 34
+[22-Jan-2020 11:39:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/troy07/public_html/elektromechanic.com/index2.php on line 11
+[22-Jan-2020 11:39:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/troy07/public_html/elektromechanic.com/index2.php on line 11
+[22-Jan-2020 11:39:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/troy07/public_html/elektromechanic.com/index2.php on line 11
+[01-Feb-2020 22:04:57 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:58 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:58 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:58 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:58 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:59 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:59 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:04:59 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:05:00 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:05:00 UTC] PHP Notice:  Undefined variable: count in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:17 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:17 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:17 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:17 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:18 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: ammonia in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[01-Feb-2020 22:08:19 UTC] PHP Notice:  Undefined variable: bleach in /home/troy07/public_html/elektromechanic.com/BookTest.php on line 5
+[02-Feb-2020 17:31:23 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:23 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:24 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:25 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:29 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:29 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:30 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:30 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 17:31:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:05 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:05 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:05 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:06 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:06 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:09 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:09 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:09 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:00:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:16 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:16 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:16 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:17 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:17 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:01:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:13 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:13 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:13 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:27 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:27 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:28 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:03:28 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 5
+[02-Feb-2020 18:04:09 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:04:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:04:10 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:04:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:04:11 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:04:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:51:49 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:51:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:51:49 UTC] PHP Warning:  require_once(login.php): failed to open stream: No such file or directory in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
+[02-Feb-2020 18:51:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'login.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/troy07/public_html/elektromechanic.com/authenticate2.php on line 6
