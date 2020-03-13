@@ -9,41 +9,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to fit=no">
 <link rel="stylesheet" href="http://elektromechanic.com/style.css" />
   <title>About Elektro-Mechanic</title>
-  <link rel="icon" type"image/gif/png" href="logo.jpg" />
-  <header>
-  	<nav class="nav-header-main">
-  	  <a href="http://elektromechanic.com/index.html">
-  	  <img src="/logo.jpg" alt="logo" height=42px width=42px class="header-logo">
-  	  </a>
-  	  <button class="btn" onclick="window.location.href='index.html'">Home</button>
-  	  <button class="btn" onclick="window.location.href='Elektro-MechanicProj.html'">Projects</button>
-	  <div class="dropdown">
-	    <button class="dropbtn">Products</button>
-	    <div class="dropdown-content">
-	      <a href="Elektro-MechanicProd.html">Parts, PCBs, and Panels</a>
-	      <a href="Elektro-MechanicMedProd.html">Media, Videos, and Pictures</a>
-	    </div>
-	  </div>
-  	  <button class="btn" onclick="window.location.href='Elektro-MechanicAbou.html'">About</button>
-  	  <button class="btn" onclick="window.location.href='Elektro-MechanicDon.html'">Donate</button>
-  	  <button class="btn" onclick="window.location.href='Elektro-MechanicLin.html'">Links</button>
-  	  <div class="header-login">
-       <form action="/root/includes/logout.inc.php" method="post" class="header-login">
-  		  <button type="submit" name="logout-submit" class="btn2">Logout</button></form>
-  		  <button name="signup-submit" class="btn2" onclick="window.location.href='signup.php'">Signup</button>
-         <form action="/root/includes/login.inc.php" method="post"> 
-  		  <button type="submit" name="login-submit" class="btn2">Login</button>
-  		  <input type="password" name="pwd" placeholder="Password..." class="rounded">
-  		  <input type="text" name="mailuid" placeholder="E-mail/Username" class="rounded">
-  	  </form>  
-  	  </div>
-      </nav>
+  <link rel="icon" type"image/gif/png" href="favicon.ico" />
   </header>
 <h1>About Elektro-Mechanic</h1>
 </head>
 <body>
+	<div class="wrapper-main">
+	<nav class="menu">
+	    <header>Menu<span>×</span></header>
+	    <ol id="navmenu">
+	        <li class="menu-item"><a href="index.html">Home</a></li>
+	        <li class="menu-item"><a href="Elektro-MechanicAbou.html">About</a></li>
+	        <li class="menu-item">
+	            <a href="Elektro-MechanicProj.html">Projects</a>
+	            <ol class="sub-menu">
+	                <li class="menu-item"><a href="EKS-100P.html">S-100 computer</a></li>
+	                <li class="menu-item"><a href="#0">Xbox-controller controlled robot</a></li>
+					<li class="menu-item"><a href="#0">S-100 computer software</a></li>
+	            </ol>
+	        </li>
+	        <li class="menu-item">
+	            <a href="Elektro-MechanicProd.html">Products</a>
+	            <ol class="sub-menu">
+	                <li class="menu-item"><a href="Elektro-MechanicMedProd.html">Videos</a></li>
+	                <li class="menu-item"><a href="#0">Files</a></li>
+	                <li class="menu-item"><a href="Elektro-MechanicProd.html">PCBs, Parts,Panels</a></li>
+	            </ol>
+	        </li>
+	        <li class="menu-item"><a href="Elektro-MechanicDon.html">Donate</a></li>
+	    </ol>
+	    <footer><button aria-label="Toggle Menu" onclick="toggle()">Toggle</button></footer>
+    </nav>
 <div style="float: left;">
-<img src="logo.jpg" alt="Logo" height=216px width=325px></div>
+<img src="favicon.ico" alt="Logo" height=166px width=256px></div>
 <div style="float: left;">
 <h2>About the logo</h2>
 <p>The logo looks like it has been painted to represent how we are always improving ideas<br>or products and making making things our own way.</p></div>
@@ -56,13 +54,14 @@
 <tr><td><img src="IMG_0173.jpeg" alt="Image not available yet" height=70px width=70px></td>
 	<td>Name: Zach<br>Description: Co-creator and designer of Elektro-Mechanic<br>Likes: Playing Roblox.</td></tr>
 <tr><td><img src="" alt="Image not available yet" height=70px width=70px></td>
-	<td>Name: JP<br>Description: Tester of Elektro-Mechanic<br>Likes: Playing Fortnite and Rocket League.</td></tr>
+	<td>Name: JP<br>Description: Tester of Elektro-Mechanic<br>Likes: Playing Rocket League.</td></tr>
 <tr><td><img src="" alt="Image not available yet" height=70px width=70px></td>
 	<td>Name: Yaseen<br>Description: Advertiser of Elektro-Mechanic<br>Likes: Playing Rocket League.</td></tr>
 <tr><td><img src="" alt="Image not available yet" height=70px width=70px></td>
-	<td>Name: Mav<br>Description: Communications officer (COMSO, not COSMO)<br>Likes: Playing Minecraft.</td></tr>
+	<td>Name: Roman<br>Description: Communications officer (COMSO, not COSMO)<br>Likes: Playing Minecraft.</td></tr>
 </table>
 <div>&copy; 2020 Quinn Stephens</div>
+</div>
 </div>
 </body>
 </html>
